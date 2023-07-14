@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero {
+  background-image: url("./assets/15740.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  max-height: 60vh;
+  aspect-ratio: 16/9;
+  height: auto;
+}
+
+.laptop-container {
+}
+.laptop {
+  background-image: url("./assets/Laptop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-button {
+  background: transparent linear-gradient(270deg, #3ae7ab 0%, #2dc4ea 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.section-button-1 {
+  background: transparent linear-gradient(270deg, #3ae7ab 0%, #2dc4ea 100%) 0%
+    0% no-repeat padding-box;
+}
+.section-button-0 {
+  background: transparent linear-gradient(270deg, #2dc4ea 0%, #3ae7ab 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.item-card {
+  box-shadow:
+    rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.item-card:hover {
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.item-card-buff {
+  box-shadow:
+    rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background: transparent linear-gradient(90deg, #2dc4ea 0%, #3ae7ab 100%) 0% 0%
+    no-repeat padding-box;
+}
+.item-card-buff:hover {
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.swiper-section-background {
+  background: transparent linear-gradient(113deg, #3ae7ab 0%, #2dc4ea 100%) 0%
+    0% no-repeat padding-box;
+  padding-top: 2.75rem;
+  padding-right: 4rem;
+  padding-left: 9rem;
+}
+
+@media (max-width: 1200) {
+}
